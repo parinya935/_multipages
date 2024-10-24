@@ -1,0 +1,75 @@
+#container {
+    /* border: 1px solid red; */
+    margin:  auto;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(80, 64, 51);
+    padding: 5px;
+}
+
+#field {
+    /* border: 1px solid blue; */
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    background-image: url(beautiful-wood-background-with-text-space-free-vector.jpg);
+    background-position: center;
+}
+
+#control {
+    /* border: 1px solid green; */
+    margin: 10px;
+}
+
+#ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    /* border: 1px solid red; */
+    /* left: calc(448px/2);
+    top: calc(248px/2); */
+}
+
+.basketball {
+    background-image: url(/360_F_295567963_h56R5KH5MxJXYusnFs8VWJZAzs0A1pbY-removebg-preview.png);
+}
+
+.volleyball {
+    background-image: url(/istockphoto-618341990-612x612-removebg-preview.png);
+}
+
+.dog {
+    background-image: url(/face-of-brown-dog-with-white-spot-in-frame-circular-free-vector-removebg-preview.png);
+}
+
+.cat {
+    background-image: url(/lovely-cat-face-black-circle-as-sticker-design-your-logo-icon-sign-clothes-website_649709-283-removebg-preview.png);
+}
+
+.none {
+    background-color: rgb(255, 255, 255);
+}
+
+.me {
+    background-image: url(/stdempimg.jpg);
+}
+
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.spin {
+    animation: spin 1s linear ;
+}
+
+#control button {
+    margin-right: 10px; /* เพิ่มระยะห่างทางขวาของแต่ละปุ่ม */
+    margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+  }

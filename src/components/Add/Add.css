@@ -1,0 +1,26 @@
+.Add-container {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: lightgray;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Add-title {
+    color: rgb(28, 116, 199);
+}
+
+.Add-variables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.Add-display {
+    display: flex;
+    gap: 0.5rem;
+}
